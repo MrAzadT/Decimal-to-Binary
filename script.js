@@ -6,7 +6,7 @@ function binary(e) {
 
   const num = document.getElementById("number").value;
 
-  if (num === " ") {
+  if (num === "") {
     alert("Please Enter a Number");
   } else if (num < 0) {
     alert("Please Enter a Positive Number");
